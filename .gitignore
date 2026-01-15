@@ -1,0 +1,4 @@
+# 环境不上传
+myenv/
+.vscode/
+__pycache__/
