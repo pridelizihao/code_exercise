@@ -9,6 +9,6 @@
 def twosum(nums, target):
     dict1 = {}
     for i,x in enumerate(nums):
-        if dict1.get(target -x) is not None:
+        if dict1.get(target - x) is not None:
             return [i, dict1[target-x]]
         dict1[x] = i
